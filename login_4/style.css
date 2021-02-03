@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "stddemi-font";
+  src: url("./fonts/ITCAvantGardeStdDemi.otf");
+}
+
+@font-face {
+  font-family: "stdmedium-font";
+  src: url("./fonts/ITCAvantGardeStdMd.otf");
+}
+
+@font-face {
+  font-family: "stdbook-font";
+  src: url("./fonts/ITCAvantGardeStdBk.otf");
+}
+img {
+  max-width: 80%;
+}
+section#section_fit1 {
+  margin-top: 3rem;
+  background-color: #e8f1ef;
+  padding-bottom: 3rem;
+}
+header {
+  padding-top: 3rem;
+}
+header h1 {
+  font-size: 1rem;
+  color: #17beba;
+}
+header h2 {
+  font-size: 1.5rem;
+}
+div#file1 input#inputEmail4 {
+  border: 1px dashed #d5dbdb;
+  height: 79px;
+  padding: 2rem 0 0 2rem;
+}
+#section_fit1 .images {
+  height: auto;
+  width: 110%;
+  margin-left: 50px;
+  margin-top: 2rem;
+}
+
+#forms {
+  height: auto;
+  width: 30%;
+  margin: auto;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text {
+  padding: 0 0 1rem 0;
+}
+button.btn.btn-primary {
+  width: 100%;
+  border: 1px solid #17bebb !important;
+  background-color: #17bebb !important;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #d5dbdb;
+  outline: 0;
+  box-shadow: none !important;
+}
+.form-select:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none !important;
+}
+.form-check-input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none !important;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  box-shadow: none !important;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #d5dbdb !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+.btn-outline-secondary {
+  color: #fff;
+  background-color: #fff !important;
+  border-color: #d5dbdb !important;
+}
+.btn-outline-secondary:hover {
+  color: #212529;
+  background-color: #d5dbdb !important;
+  border-color: #d5dbdb !important;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.d-flex.flex-row h4 {
+  font-size: 10px;
+}
+
+div#agree {
+  font-size: 11px;
+}
+.d-flex.flex-row a {
+  color: none !important;
+  text-decoration: none !important;
+}
+.primary {
+  text-align: center;
+  font-family: "stdmedium-font";
+  font-size: 13px;
+}
+.primary a {
+  color: #17beba !important;
+  text-decoration: none !important;
+}
+.d-flex.flex-row.imgz {
+  margin-left: 6rem;
+  width: 20%;
+}
+
+#group1 {
+  margin-right: 1rem;
+}
+/* mobile Responsive */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #section_fit1 .images {
+    height: auto;
+    width: 82%;
+    margin-left: 50px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  #forms {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 2rem 1rem 2rem 1rem;
+    background: #fff;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  #section_fit1 .images {
+    height: auto;
+    width: 80%;
+    margin-left: 109px;
+    margin-bottom: 4rem;
+  }
+
+  #forms {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 2rem 1rem 2rem 1rem;
+    background: #fff;
+  }
+  .demo {
+    margin-right: 21rem;
+    color: #000;
+  }
+  .d-flex.flex-row.imgz {
+    margin-left: 12rem;
+    width: 20%;
+  }
+}
+@media only screen and (min-device-width: 767px) and (max-device-width: 1023px) {
+  #section_fit1 .images {
+    height: auto;
+    width: 110%;
+    margin-left: 28px;
+    margin-bottom: 4rem;
+  }
+
+  #forms {
+    height: auto;
+    width: 40%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    background: #fff;
+  }
+  .demo {
+    margin-right: 5rem;
+    color: #000;
+  }
+  .d-flex.flex-row.imgz {
+    margin-left: 6rem;
+    width: 20%;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1040px) {
+  #section_fit1 .images {
+    height: auto;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 2rem;
+  }
+  #forms {
+    height: auto;
+    width: 36%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 20px;
+    background: #fff;
+  }
+  .d-flex.flex-row.imgz {
+    margin-left: 8rem;
+    width: 16%;
+  }
+}
